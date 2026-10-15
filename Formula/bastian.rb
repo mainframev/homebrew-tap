@@ -5,23 +5,23 @@ class Bastian < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mainframev/bastian/releases/download/v0.2.0/bastian-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "73c6b438db61b8802c0e4462f16fab6e3af38956bc156936bddf938b2c0f5a6e"
+      url "https://github.com/mainframev/bastian/releases/download/v0.3.0/bastian-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "550d43eb1e222056bfc29403d2fc0923b0d4e636fad818a958087642548899e2"
     end
     on_intel do
-      url "https://github.com/mainframev/bastian/releases/download/v0.2.0/bastian-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "754d90ef1fbcf671ac38e3b188f5994dfbd05acb4c984b0f0ddd49ee7587ab2f"
+      url "https://github.com/mainframev/bastian/releases/download/v0.3.0/bastian-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "05c3c477f03e226017edcb538d5d41e74ff4c3a7962a045274b8b7fca035b295"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mainframev/bastian/releases/download/v0.2.0/bastian-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c1f32eb8439e057f676721d125159806387ff0245ebf5e0d532c3b62dfc5fc7c"
+      url "https://github.com/mainframev/bastian/releases/download/v0.3.0/bastian-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3c9a59e00792d56aef0199671f3cc2efc0865603099b3476cf66560b70cd5fce"
     end
     on_intel do
-      url "https://github.com/mainframev/bastian/releases/download/v0.2.0/bastian-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "15cb29d73aeeac21f4730c9746cec07f9dacd94f9a84d4c75942525711d5f4cc"
+      url "https://github.com/mainframev/bastian/releases/download/v0.3.0/bastian-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "312623cef8b5ac05d9c6b02d88f6f3219fd4a319def667d5f06f3486c26b6053"
     end
   end
 
